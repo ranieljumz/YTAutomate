@@ -1,0 +1,8 @@
+fastapi
+moviepy
+numpy
+Pillow
+pydantic
+spaces
+uvicorn
+whisper

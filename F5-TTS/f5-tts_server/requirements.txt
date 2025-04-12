@@ -1,0 +1,10 @@
+cached_path
+f5_tts
+fastapi
+pydantic
+pydub
+python_magic
+soundfile
+spaces
+torch==2.8.0.dev20250327+cu126
+torchaudio==2.6.0.dev20250331+cu126
