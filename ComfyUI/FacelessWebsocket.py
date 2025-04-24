@@ -12,7 +12,7 @@ from fastapi import FastAPI, HTTPException, Request
 
 import folder_paths
 
-OUTPUT_DIR = "/mnt/z/comfyui/output"
+OUTPUT_DIR = "/home/raniel/YTAutomate/ComfyUI/output"
 
 if os.path.exists(OUTPUT_DIR):
     print(f"Directory exists: {OUTPUT_DIR}")
@@ -346,7 +346,7 @@ async def generate_image(
                 detail="Image generation failed or produced no output.",
             )
         output_path = os.path.join(
-                "Z:/comfyui/output", result[0]
+                OUTPUT_DIR, result[0]
         )
         image_urls = [
             f"{output_path}"
